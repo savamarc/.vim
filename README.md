@@ -8,6 +8,6 @@ These few lines should setup this `.vimrc` and download the vim plugins I use.
 Installation has to be done in `~/` because I didn't take the time to setup
 Vundle for elsewhere.
 
-    git clone --recurse-submodules git@github.com:savamarc/.vim.git ~
-    vim +PluginInstall +qall
+    git clone --recurse-submodules git@github.com:savamarc/.vim.git ~/.vim
     ln -sf ~/.vim/.vimrc ~/.vimrc
+    vim +PluginInstall +qall
