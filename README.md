@@ -12,9 +12,3 @@ Vundle for elsewhere.
     git clone --recurse-submodules git@github.com:savamarc/.vim.git ~/.vim
     ln -sf ~/.vim/.vimrc ~/.vimrc
     vim +PluginInstall +qall
-
-It is also possible to make the installation with the install script for ease of
-use :
-    sh install
-or
-    ./install

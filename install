@@ -1,6 +1,0 @@
-#!/bin/sh
-
-cd ~
-git clone --recurse-submodules git@github.com:savamarc/.vim.git
-ln -sf ~/.vim/.vimrc ~/.vimrc
-vim +PluginInstall +qall

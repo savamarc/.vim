@@ -16,6 +16,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-bufferline'
+Plugin 'lervag/vimtex'
 
 
 " All of your Plugins must be added before the following line
@@ -41,15 +42,11 @@ let g:jellybeans_overrides = {
 \}
 let g:airline_theme = 'jellybeans'
 let g:airline_left_sep=''
-"let g:ycm_confirm_extra_conf = 0
-"let g:ycm_autoclose_preview_window_after_insertion = 1
-"let g:ycm_goto_buffer_command = 'new-tab'
-"nnoremap qq :YcmCompleter GoTo<CR>
-"let g:clang_library_path='/usr/lib64/libclang.so'
 map <C-n> :NERDTreeToggle<CR>
 nnoremap <C-j> :bn<CR>
 nnoremap <C-k> :bp<CR>
 nnoremap <C-p> :bd<CR>
+let g:vimtex_view_method='zathura'
 syntax on " Syntax highlight
 set history=100 " remember the last 100 commands
 "set smartindent " Keep previous indentation in newlines
