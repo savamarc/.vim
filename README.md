@@ -6,4 +6,4 @@ that already contains a few non standard 'saner' defaults.
 # Usage in case I ever need to reinstall this
 These few lines should setup this `.vimrc` and download the vim plugins I use.
 
-    git clone --recursive git@github.com:savamarc/vimsetup.git
+    git clone --recurse-submodules git@github.com:savamarc/.vim.git
