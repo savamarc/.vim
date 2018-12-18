@@ -7,3 +7,5 @@ that already contains a few non standard 'saner' defaults.
 These few lines should setup this `.vimrc` and download the vim plugins I use.
 
     git clone --recurse-submodules git@github.com:savamarc/.vim.git
+    vim +PluginInstall +qall
+    ln -sf .vim/.vimrc ~/.vimrc
