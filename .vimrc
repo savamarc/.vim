@@ -17,6 +17,8 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-bufferline'
 Plugin 'lervag/vimtex'
+" This enables gdscript synthax highlight in vim
+" To use terminal vim in godot : /usr/bin/gnome-terminal -e 'vim --servername godot --remote +{line} {file}'
 Plugin 'calviken/vim-gdscript3'
 
 " All of your Plugins must be added before the following line
