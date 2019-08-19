@@ -17,7 +17,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-bufferline'
 Plugin 'lervag/vimtex'
-
+Plugin 'calviken/vim-gdscript3'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
