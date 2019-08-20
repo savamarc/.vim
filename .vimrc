@@ -42,7 +42,7 @@ let g:jellybeans_overrides = {
 \}
 let g:airline_theme = 'jellybeans'
 let g:airline_left_sep=''
-map <C-n> :NERDTreeToggle<CR>
+nmap <C-n> :NERDTreeToggle<CR>
 nnoremap <C-j> :bn<CR>
 nnoremap <C-k> :bp<CR>
 nnoremap <C-p> :bd<CR>
