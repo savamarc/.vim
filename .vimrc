@@ -48,7 +48,8 @@ nmap <C-n> :NERDTreeToggle<CR>
 nnoremap <C-j> :bn<CR>
 nnoremap <C-k> :bp<CR>
 nnoremap <C-p> :bd<CR>
-let g:vimtex_view_method='zathura'
+let g:vimtex_view_method='zathura' " Use Zathura pdf viewer.
+let g:vimtex_quickfix_mode=0 " Program will not show errors automatically.
 syntax on " Syntax highlight
 set history=100 " remember the last 100 commands
 "set smartindent " Keep previous indentation in newlines
