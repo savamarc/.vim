@@ -60,3 +60,5 @@ set cc=81 " Show column 81
 set encoding=utf-8  " The encoding displayed.
 set fileencoding=utf-8  " The encoding written to file.
 set nobackup " Does not make backups
+set list
+set lcs+=space:·
